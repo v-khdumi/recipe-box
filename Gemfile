@@ -11,7 +11,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'simple_form', '~> 3.2'
+gem 'paperclip', '~> 4.3', '>= 4.3.2'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'cocoon', '~> 1.2', '>= 1.2.6'
+gem 'devise', '~> 3.5', '>= 3.5.2'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
