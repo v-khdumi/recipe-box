@@ -1,28 +1,13 @@
-== README
+== Recipe Box
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A styled and functional recipe sharing site with nested models to add
+ingredients and directions, plus a photo and user login and settings.
 
-Things you may want to cover:
+Gems
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Cocoon for nested models (ingredients and directions on recipes)
+* Paperclip for photo upload
+* Devise for user accounts and authentication
+* Simple Form for uploads, comments, other user input
+* HAML for cleaner structure
+* Bootstrap SASS for styling
